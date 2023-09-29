@@ -1,0 +1,17 @@
+{
+  "name": "bangladesh-data",
+  "version": "1.0.0",
+  "description": "Test-Node-API",
+  "author": "Amin Mohammadi",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "parallel": "run-p -ls --aggregate-output",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "json-server": "^0.16.3",
+    "jsonfile": "^6.1.0"
+  }
+}
